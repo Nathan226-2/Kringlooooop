@@ -1,10 +1,10 @@
 @font-face {
-    font-family: Retro;
+    font-family: dayrom;
     src: url(/assets/DAYROM__.ttf);
 }
 
 body{
-    font-family: Retro;
+    font-family: dayrom;
 }
 
 h1{
