@@ -32,6 +32,9 @@ nav ul li img{
     display: flex;
     width: 160%;
 }
+.spullen nav ul li img{
+    width: 160%;
+}
 
 header{
     justify-content: center;
@@ -40,6 +43,7 @@ header{
 .logogroot{
     width: 70%;
 }
+
 h2{
     display: flex;
     justify-content: center;
@@ -101,6 +105,14 @@ main section{
     width: 50%;
 }
 
+header img{
+    width: 70%;
+}
+
+.spullen header img{
+    width: 70%;
+}
+
 .winkel{
     width: 100%;
 }
@@ -150,4 +162,8 @@ label{
 
 .spullen section:nth-of-type(1) {
 flex-direction: column;
+}
+
+input #geslacht{
+    display: hidden;
 }
