@@ -1,6 +1,6 @@
 @font-face {
     font-family: dayrom;
-    src: url(/assets/DAYROM__.ttf);
+    src: url(/assets/dayrom__.ttf);
 }
 
 body{
@@ -15,12 +15,12 @@ h1{
 nav ul{
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 0;
 }
 
 nav ul li a{
-    padding: 0,5em;
+    padding: 0.5em;
     padding-bottom: 0%;
     margin: 10px;
     text-decoration: none;
@@ -29,12 +29,17 @@ nav ul li a{
 nav ul li img{
     background-color: #49955d;
     border-radius: 10px;
+    display: flex;
+    width: 160%;
 }
 
 header{
     justify-content: center;
 }
 
+.logogroot{
+    width: 70%;
+}
 h2{
     display: flex;
     justify-content: center;
@@ -79,9 +84,21 @@ main section{
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
+.kleding1{
+    width: 30%;
+}
+
+.kast1{
+    width: 30%;
+}
+
+.kast2{
+    width: 30%;
+}
+
 footer{
     display: flex;
-    justify-content: center;
     justify-content: space-evenly;
     background-color: #235d3a;
     font-size: 10px;
@@ -90,6 +107,9 @@ footer{
     color: #efefef;
 }
 
+.spullen footer section{
+   display: block;
+}
 
 footer ul{
     padding: 0
