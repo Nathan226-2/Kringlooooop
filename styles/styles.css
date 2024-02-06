@@ -90,6 +90,7 @@ footer{
     color: #efefef;
 }
 
+
 footer ul{
     padding: 0
     
@@ -99,13 +100,14 @@ footer ul li{
     list-style: none;
 }
 
-label, input, select{
+label, form > input, select{
     width: 60%;
 }
 
-form{
-    display: flex;
+label{
+    display: block;
 }
+
 .spullen section{
     display: flex;
     flex-direction: row;
